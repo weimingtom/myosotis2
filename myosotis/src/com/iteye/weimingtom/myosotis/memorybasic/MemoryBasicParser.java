@@ -1,4 +1,4 @@
-// $ANTLR 3.3 Nov 30, 2010 12:45:30 C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g 2012-01-08 21:46:09
+// $ANTLR 3.3 Nov 30, 2010 12:45:30 D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g 2015-09-08 02:44:22
 
 package com.iteye.weimingtom.myosotis.memorybasic;
 
@@ -61,7 +61,7 @@ public class MemoryBasicParser extends Parser {
         
 
     public String[] getTokenNames() { return MemoryBasicParser.tokenNames; }
-    public String getGrammarFileName() { return "C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g"; }
+    public String getGrammarFileName() { return "D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g"; }
 
 
     public Compiler driver;
@@ -69,13 +69,13 @@ public class MemoryBasicParser extends Parser {
 
 
     // $ANTLR start "compilationUnit"
-    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:15:1: compilationUnit : ( statement )+ ;
+    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:15:1: compilationUnit : ( statement )+ ;
     public final void compilationUnit() throws RecognitionException {
         try {
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:15:17: ( ( statement )+ )
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:15:19: ( statement )+
+            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:15:17: ( ( statement )+ )
+            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:15:19: ( statement )+
             {
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:15:19: ( statement )+
+            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:15:19: ( statement )+
             int cnt1=0;
             loop1:
             do {
@@ -89,7 +89,7 @@ public class MemoryBasicParser extends Parser {
 
                 switch (alt1) {
             	case 1 :
-            	    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:15:19: statement
+            	    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:15:19: statement
             	    {
             	    pushFollow(FOLLOW_statement_in_compilationUnit34);
             	    statement();
@@ -125,7 +125,7 @@ public class MemoryBasicParser extends Parser {
 
 
     // $ANTLR start "statement"
-    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:17:1: statement : ( 'end' NEWLINE | assign NEWLINE | 'if' comp_expr 'then' NEWLINE | 'else' NEWLINE | 'endif' NEWLINE | 'for' assign 'to' e1= expr ( 'step' e2= expr )? NEWLINE | 'next' NEWLINE | 'while' comp_expr NEWLINE | 'wend' NEWLINE | 'print' args NEWLINE | NEWLINE );
+    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:17:1: statement : ( 'end' NEWLINE | assign NEWLINE | 'if' comp_expr 'then' NEWLINE | 'else' NEWLINE | 'endif' NEWLINE | 'for' assign 'to' e1= expr ( 'step' e2= expr )? NEWLINE | 'next' NEWLINE | 'while' comp_expr NEWLINE | 'wend' NEWLINE | 'print' args NEWLINE | NEWLINE );
     public final void statement() throws RecognitionException {
         Node e1 = null;
 
@@ -143,7 +143,7 @@ public class MemoryBasicParser extends Parser {
 
 
         try {
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:18:1: ( 'end' NEWLINE | assign NEWLINE | 'if' comp_expr 'then' NEWLINE | 'else' NEWLINE | 'endif' NEWLINE | 'for' assign 'to' e1= expr ( 'step' e2= expr )? NEWLINE | 'next' NEWLINE | 'while' comp_expr NEWLINE | 'wend' NEWLINE | 'print' args NEWLINE | NEWLINE )
+            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:18:1: ( 'end' NEWLINE | assign NEWLINE | 'if' comp_expr 'then' NEWLINE | 'else' NEWLINE | 'endif' NEWLINE | 'for' assign 'to' e1= expr ( 'step' e2= expr )? NEWLINE | 'next' NEWLINE | 'while' comp_expr NEWLINE | 'wend' NEWLINE | 'print' args NEWLINE | NEWLINE )
             int alt3=11;
             switch ( input.LA(1) ) {
             case 9:
@@ -210,7 +210,7 @@ public class MemoryBasicParser extends Parser {
 
             switch (alt3) {
                 case 1 :
-                    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:18:3: 'end' NEWLINE
+                    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:18:3: 'end' NEWLINE
                     {
                     match(input,9,FOLLOW_9_in_statement44); 
                     match(input,NEWLINE,FOLLOW_NEWLINE_in_statement46); 
@@ -219,7 +219,7 @@ public class MemoryBasicParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:19:3: assign NEWLINE
+                    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:19:3: assign NEWLINE
                     {
                     pushFollow(FOLLOW_assign_in_statement52);
                     assign1=assign();
@@ -232,7 +232,7 @@ public class MemoryBasicParser extends Parser {
                     }
                     break;
                 case 3 :
-                    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:20:3: 'if' comp_expr 'then' NEWLINE
+                    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:20:3: 'if' comp_expr 'then' NEWLINE
                     {
                     match(input,10,FOLLOW_10_in_statement60); 
                     pushFollow(FOLLOW_comp_expr_in_statement62);
@@ -247,7 +247,7 @@ public class MemoryBasicParser extends Parser {
                     }
                     break;
                 case 4 :
-                    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:21:3: 'else' NEWLINE
+                    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:21:3: 'else' NEWLINE
                     {
                     match(input,12,FOLLOW_12_in_statement72); 
                     match(input,NEWLINE,FOLLOW_NEWLINE_in_statement74); 
@@ -256,7 +256,7 @@ public class MemoryBasicParser extends Parser {
                     }
                     break;
                 case 5 :
-                    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:22:3: 'endif' NEWLINE
+                    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:22:3: 'endif' NEWLINE
                     {
                     match(input,13,FOLLOW_13_in_statement80); 
                     match(input,NEWLINE,FOLLOW_NEWLINE_in_statement82); 
@@ -265,7 +265,7 @@ public class MemoryBasicParser extends Parser {
                     }
                     break;
                 case 6 :
-                    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:23:3: 'for' assign 'to' e1= expr ( 'step' e2= expr )? NEWLINE
+                    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:23:3: 'for' assign 'to' e1= expr ( 'step' e2= expr )? NEWLINE
                     {
                     match(input,14,FOLLOW_14_in_statement89); 
                     pushFollow(FOLLOW_assign_in_statement91);
@@ -279,7 +279,7 @@ public class MemoryBasicParser extends Parser {
 
                     state._fsp--;
 
-                    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:23:29: ( 'step' e2= expr )?
+                    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:23:29: ( 'step' e2= expr )?
                     int alt2=2;
                     int LA2_0 = input.LA(1);
 
@@ -288,7 +288,7 @@ public class MemoryBasicParser extends Parser {
                     }
                     switch (alt2) {
                         case 1 :
-                            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:23:30: 'step' e2= expr
+                            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:23:30: 'step' e2= expr
                             {
                             match(input,16,FOLLOW_16_in_statement100); 
                             pushFollow(FOLLOW_expr_in_statement104);
@@ -308,7 +308,7 @@ public class MemoryBasicParser extends Parser {
                     }
                     break;
                 case 7 :
-                    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:24:3: 'next' NEWLINE
+                    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:24:3: 'next' NEWLINE
                     {
                     match(input,17,FOLLOW_17_in_statement114); 
                     match(input,NEWLINE,FOLLOW_NEWLINE_in_statement116); 
@@ -317,7 +317,7 @@ public class MemoryBasicParser extends Parser {
                     }
                     break;
                 case 8 :
-                    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:25:3: 'while' comp_expr NEWLINE
+                    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:25:3: 'while' comp_expr NEWLINE
                     {
                     match(input,18,FOLLOW_18_in_statement123); 
                     pushFollow(FOLLOW_comp_expr_in_statement125);
@@ -331,7 +331,7 @@ public class MemoryBasicParser extends Parser {
                     }
                     break;
                 case 9 :
-                    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:26:3: 'wend' NEWLINE
+                    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:26:3: 'wend' NEWLINE
                     {
                     match(input,19,FOLLOW_19_in_statement133); 
                     match(input,NEWLINE,FOLLOW_NEWLINE_in_statement135); 
@@ -340,7 +340,7 @@ public class MemoryBasicParser extends Parser {
                     }
                     break;
                 case 10 :
-                    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:27:3: 'print' args NEWLINE
+                    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:27:3: 'print' args NEWLINE
                     {
                     match(input,20,FOLLOW_20_in_statement141); 
                     pushFollow(FOLLOW_args_in_statement143);
@@ -354,7 +354,7 @@ public class MemoryBasicParser extends Parser {
                     }
                     break;
                 case 11 :
-                    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:28:3: NEWLINE
+                    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:28:3: NEWLINE
                     {
                     match(input,NEWLINE,FOLLOW_NEWLINE_in_statement152); 
 
@@ -375,7 +375,7 @@ public class MemoryBasicParser extends Parser {
 
 
     // $ANTLR start "assign"
-    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:31:1: assign returns [Assign value] : value_expr '=' expr ;
+    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:31:1: assign returns [Assign value] : value_expr '=' expr ;
     public final Assign assign() throws RecognitionException {
         Assign value = null;
 
@@ -385,8 +385,8 @@ public class MemoryBasicParser extends Parser {
 
 
         try {
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:32:1: ( value_expr '=' expr )
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:32:3: value_expr '=' expr
+            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:32:1: ( value_expr '=' expr )
+            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:32:3: value_expr '=' expr
             {
             pushFollow(FOLLOW_value_expr_in_assign165);
             value_expr6=value_expr();
@@ -416,7 +416,7 @@ public class MemoryBasicParser extends Parser {
 
 
     // $ANTLR start "comp_expr"
-    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:37:1: comp_expr returns [Node value] : e1= expr ( '==' e2= expr | '!=' e3= expr | '>' e4= expr | '>=' e5= expr | '<' e6= expr | '<=' e7= expr ) ;
+    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:37:1: comp_expr returns [Node value] : e1= expr ( '==' e2= expr | '!=' e3= expr | '>' e4= expr | '>=' e5= expr | '<' e6= expr | '<=' e7= expr ) ;
     public final Node comp_expr() throws RecognitionException {
         Node value = null;
 
@@ -436,8 +436,8 @@ public class MemoryBasicParser extends Parser {
 
 
         try {
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:38:1: (e1= expr ( '==' e2= expr | '!=' e3= expr | '>' e4= expr | '>=' e5= expr | '<' e6= expr | '<=' e7= expr ) )
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:38:3: e1= expr ( '==' e2= expr | '!=' e3= expr | '>' e4= expr | '>=' e5= expr | '<' e6= expr | '<=' e7= expr )
+            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:38:1: (e1= expr ( '==' e2= expr | '!=' e3= expr | '>' e4= expr | '>=' e5= expr | '<' e6= expr | '<=' e7= expr ) )
+            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:38:3: e1= expr ( '==' e2= expr | '!=' e3= expr | '>' e4= expr | '>=' e5= expr | '<' e6= expr | '<=' e7= expr )
             {
             pushFollow(FOLLOW_expr_in_comp_expr188);
             e1=expr();
@@ -445,7 +445,7 @@ public class MemoryBasicParser extends Parser {
             state._fsp--;
 
              value = e1; 
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:39:1: ( '==' e2= expr | '!=' e3= expr | '>' e4= expr | '>=' e5= expr | '<' e6= expr | '<=' e7= expr )
+            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:39:1: ( '==' e2= expr | '!=' e3= expr | '>' e4= expr | '>=' e5= expr | '<' e6= expr | '<=' e7= expr )
             int alt4=6;
             switch ( input.LA(1) ) {
             case 22:
@@ -487,7 +487,7 @@ public class MemoryBasicParser extends Parser {
 
             switch (alt4) {
                 case 1 :
-                    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:39:2: '==' e2= expr
+                    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:39:2: '==' e2= expr
                     {
                     match(input,22,FOLLOW_22_in_comp_expr193); 
                     pushFollow(FOLLOW_expr_in_comp_expr197);
@@ -500,7 +500,7 @@ public class MemoryBasicParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:40:3: '!=' e3= expr
+                    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:40:3: '!=' e3= expr
                     {
                     match(input,23,FOLLOW_23_in_comp_expr203); 
                     pushFollow(FOLLOW_expr_in_comp_expr207);
@@ -513,7 +513,7 @@ public class MemoryBasicParser extends Parser {
                     }
                     break;
                 case 3 :
-                    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:41:3: '>' e4= expr
+                    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:41:3: '>' e4= expr
                     {
                     match(input,24,FOLLOW_24_in_comp_expr214); 
                     pushFollow(FOLLOW_expr_in_comp_expr218);
@@ -526,7 +526,7 @@ public class MemoryBasicParser extends Parser {
                     }
                     break;
                 case 4 :
-                    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:42:3: '>=' e5= expr
+                    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:42:3: '>=' e5= expr
                     {
                     match(input,25,FOLLOW_25_in_comp_expr224); 
                     pushFollow(FOLLOW_expr_in_comp_expr228);
@@ -539,7 +539,7 @@ public class MemoryBasicParser extends Parser {
                     }
                     break;
                 case 5 :
-                    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:43:3: '<' e6= expr
+                    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:43:3: '<' e6= expr
                     {
                     match(input,26,FOLLOW_26_in_comp_expr234); 
                     pushFollow(FOLLOW_expr_in_comp_expr238);
@@ -552,7 +552,7 @@ public class MemoryBasicParser extends Parser {
                     }
                     break;
                 case 6 :
-                    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:44:3: '<=' e7= expr
+                    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:44:3: '<=' e7= expr
                     {
                     match(input,27,FOLLOW_27_in_comp_expr244); 
                     pushFollow(FOLLOW_expr_in_comp_expr248);
@@ -583,7 +583,7 @@ public class MemoryBasicParser extends Parser {
 
 
     // $ANTLR start "expr"
-    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:48:1: expr returns [Node value] : e1= mulexpr ( '+' e2= mulexpr | '-' e3= mulexpr )* ;
+    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:48:1: expr returns [Node value] : e1= mulexpr ( '+' e2= mulexpr | '-' e3= mulexpr )* ;
     public final Node expr() throws RecognitionException {
         Node value = null;
 
@@ -595,8 +595,8 @@ public class MemoryBasicParser extends Parser {
 
 
         try {
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:49:1: (e1= mulexpr ( '+' e2= mulexpr | '-' e3= mulexpr )* )
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:49:3: e1= mulexpr ( '+' e2= mulexpr | '-' e3= mulexpr )*
+            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:49:1: (e1= mulexpr ( '+' e2= mulexpr | '-' e3= mulexpr )* )
+            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:49:3: e1= mulexpr ( '+' e2= mulexpr | '-' e3= mulexpr )*
             {
             pushFollow(FOLLOW_mulexpr_in_expr267);
             e1=mulexpr();
@@ -604,7 +604,7 @@ public class MemoryBasicParser extends Parser {
             state._fsp--;
 
             value = e1;
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:50:1: ( '+' e2= mulexpr | '-' e3= mulexpr )*
+            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:50:1: ( '+' e2= mulexpr | '-' e3= mulexpr )*
             loop5:
             do {
                 int alt5=3;
@@ -620,7 +620,7 @@ public class MemoryBasicParser extends Parser {
 
                 switch (alt5) {
             	case 1 :
-            	    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:50:3: '+' e2= mulexpr
+            	    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:50:3: '+' e2= mulexpr
             	    {
             	    match(input,28,FOLLOW_28_in_expr273); 
             	    pushFollow(FOLLOW_mulexpr_in_expr277);
@@ -633,7 +633,7 @@ public class MemoryBasicParser extends Parser {
             	    }
             	    break;
             	case 2 :
-            	    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:51:3: '-' e3= mulexpr
+            	    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:51:3: '-' e3= mulexpr
             	    {
             	    match(input,29,FOLLOW_29_in_expr283); 
             	    pushFollow(FOLLOW_mulexpr_in_expr287);
@@ -667,7 +667,7 @@ public class MemoryBasicParser extends Parser {
 
 
     // $ANTLR start "mulexpr"
-    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:55:1: mulexpr returns [Node value] : e1= unaexpr ( '*' e2= unaexpr | '/' e3= unaexpr | '%' e4= unaexpr )* ;
+    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:55:1: mulexpr returns [Node value] : e1= unaexpr ( '*' e2= unaexpr | '/' e3= unaexpr | '%' e4= unaexpr )* ;
     public final Node mulexpr() throws RecognitionException {
         Node value = null;
 
@@ -681,8 +681,8 @@ public class MemoryBasicParser extends Parser {
 
 
         try {
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:56:1: (e1= unaexpr ( '*' e2= unaexpr | '/' e3= unaexpr | '%' e4= unaexpr )* )
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:56:3: e1= unaexpr ( '*' e2= unaexpr | '/' e3= unaexpr | '%' e4= unaexpr )*
+            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:56:1: (e1= unaexpr ( '*' e2= unaexpr | '/' e3= unaexpr | '%' e4= unaexpr )* )
+            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:56:3: e1= unaexpr ( '*' e2= unaexpr | '/' e3= unaexpr | '%' e4= unaexpr )*
             {
             pushFollow(FOLLOW_unaexpr_in_mulexpr307);
             e1=unaexpr();
@@ -690,7 +690,7 @@ public class MemoryBasicParser extends Parser {
             state._fsp--;
 
             value = e1;
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:57:1: ( '*' e2= unaexpr | '/' e3= unaexpr | '%' e4= unaexpr )*
+            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:57:1: ( '*' e2= unaexpr | '/' e3= unaexpr | '%' e4= unaexpr )*
             loop6:
             do {
                 int alt6=4;
@@ -715,7 +715,7 @@ public class MemoryBasicParser extends Parser {
 
                 switch (alt6) {
             	case 1 :
-            	    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:57:3: '*' e2= unaexpr
+            	    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:57:3: '*' e2= unaexpr
             	    {
             	    match(input,30,FOLLOW_30_in_mulexpr313); 
             	    pushFollow(FOLLOW_unaexpr_in_mulexpr317);
@@ -728,7 +728,7 @@ public class MemoryBasicParser extends Parser {
             	    }
             	    break;
             	case 2 :
-            	    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:58:3: '/' e3= unaexpr
+            	    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:58:3: '/' e3= unaexpr
             	    {
             	    match(input,31,FOLLOW_31_in_mulexpr323); 
             	    pushFollow(FOLLOW_unaexpr_in_mulexpr327);
@@ -736,12 +736,12 @@ public class MemoryBasicParser extends Parser {
 
             	    state._fsp--;
 
-            	     value = Node.MakeNode(driver, Node.OP_DIVIDE, e1, e2); 
+            	     value = Node.MakeNode(driver, Node.OP_DIVIDE, e1, e3); 
 
             	    }
             	    break;
             	case 3 :
-            	    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:59:3: '%' e4= unaexpr
+            	    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:59:3: '%' e4= unaexpr
             	    {
             	    match(input,32,FOLLOW_32_in_mulexpr333); 
             	    pushFollow(FOLLOW_unaexpr_in_mulexpr337);
@@ -749,7 +749,7 @@ public class MemoryBasicParser extends Parser {
 
             	    state._fsp--;
 
-            	     value = Node.MakeNode(driver, Node.OP_MOD, e1, e2); 
+            	     value = Node.MakeNode(driver, Node.OP_MOD, e1, e4); 
 
             	    }
             	    break;
@@ -775,7 +775,7 @@ public class MemoryBasicParser extends Parser {
 
 
     // $ANTLR start "unaexpr"
-    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:63:1: unaexpr returns [Node value] : ( value_expr | INT | '-' e1= unaexpr | '(' e2= expr ')' | 'rand' '(' e3= expr ')' );
+    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:63:1: unaexpr returns [Node value] : ( value_expr | INT | '-' e1= unaexpr | '(' e2= expr ')' | 'rand' '(' e3= expr ')' );
     public final Node unaexpr() throws RecognitionException {
         Node value = null;
 
@@ -790,7 +790,7 @@ public class MemoryBasicParser extends Parser {
 
 
         try {
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:64:1: ( value_expr | INT | '-' e1= unaexpr | '(' e2= expr ')' | 'rand' '(' e3= expr ')' )
+            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:64:1: ( value_expr | INT | '-' e1= unaexpr | '(' e2= expr ')' | 'rand' '(' e3= expr ')' )
             int alt7=5;
             switch ( input.LA(1) ) {
             case ID:
@@ -827,7 +827,7 @@ public class MemoryBasicParser extends Parser {
 
             switch (alt7) {
                 case 1 :
-                    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:64:3: value_expr
+                    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:64:3: value_expr
                     {
                     pushFollow(FOLLOW_value_expr_in_unaexpr355);
                     value_expr8=value_expr();
@@ -839,15 +839,15 @@ public class MemoryBasicParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:65:3: INT
+                    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:65:3: INT
                     {
                     INT9=(Token)match(input,INT,FOLLOW_INT_in_unaexpr361); 
-                     value = new Node(Node.OP_CONST, (INT9!=null?INT9.getText():null)); 
+                     value = new Node(Node.OP_CONST, Integer.parseInt((INT9!=null?INT9.getText():null))); 
 
                     }
                     break;
                 case 3 :
-                    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:66:3: '-' e1= unaexpr
+                    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:66:3: '-' e1= unaexpr
                     {
                     match(input,29,FOLLOW_29_in_unaexpr367); 
                     pushFollow(FOLLOW_unaexpr_in_unaexpr371);
@@ -860,7 +860,7 @@ public class MemoryBasicParser extends Parser {
                     }
                     break;
                 case 4 :
-                    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:67:3: '(' e2= expr ')'
+                    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:67:3: '(' e2= expr ')'
                     {
                     match(input,33,FOLLOW_33_in_unaexpr377); 
                     pushFollow(FOLLOW_expr_in_unaexpr381);
@@ -874,7 +874,7 @@ public class MemoryBasicParser extends Parser {
                     }
                     break;
                 case 5 :
-                    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:68:3: 'rand' '(' e3= expr ')'
+                    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:68:3: 'rand' '(' e3= expr ')'
                     {
                     match(input,35,FOLLOW_35_in_unaexpr389); 
                     match(input,33,FOLLOW_33_in_unaexpr391); 
@@ -903,15 +903,15 @@ public class MemoryBasicParser extends Parser {
 
 
     // $ANTLR start "value_expr"
-    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:71:1: value_expr returns [ValueNode value] : ID ;
+    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:71:1: value_expr returns [ValueNode value] : ID ;
     public final ValueNode value_expr() throws RecognitionException {
         ValueNode value = null;
 
         Token ID10=null;
 
         try {
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:72:1: ( ID )
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:72:3: ID
+            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:72:1: ( ID )
+            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:72:3: ID
             {
             ID10=(Token)match(input,ID,FOLLOW_ID_in_value_expr416); 
              value = new ValueNode((ID10!=null?ID10.getText():null)); 
@@ -931,7 +931,7 @@ public class MemoryBasicParser extends Parser {
 
 
     // $ANTLR start "args"
-    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:75:1: args returns [Args value] : e1= expr ( ',' e2= expr )* ;
+    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:75:1: args returns [Args value] : e1= expr ( ',' e2= expr )* ;
     public final Args args() throws RecognitionException {
         Args value = null;
 
@@ -941,8 +941,8 @@ public class MemoryBasicParser extends Parser {
 
 
         try {
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:76:1: (e1= expr ( ',' e2= expr )* )
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:76:3: e1= expr ( ',' e2= expr )*
+            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:76:1: (e1= expr ( ',' e2= expr )* )
+            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:76:3: e1= expr ( ',' e2= expr )*
             {
             pushFollow(FOLLOW_expr_in_args433);
             e1=expr();
@@ -950,7 +950,7 @@ public class MemoryBasicParser extends Parser {
             state._fsp--;
 
              value = new Args(e1); 
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:77:1: ( ',' e2= expr )*
+            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:77:1: ( ',' e2= expr )*
             loop8:
             do {
                 int alt8=2;
@@ -963,7 +963,7 @@ public class MemoryBasicParser extends Parser {
 
                 switch (alt8) {
             	case 1 :
-            	    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\MemoryBasic.g:78:1: ',' e2= expr
+            	    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:78:1: ',' e2= expr
             	    {
             	    match(input,36,FOLLOW_36_in_args439); 
             	    pushFollow(FOLLOW_expr_in_args443);

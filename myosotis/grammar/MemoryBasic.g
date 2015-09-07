@@ -55,14 +55,14 @@ expr returns [Node value]
 mulexpr returns [Node value]
 : e1=unaexpr {$value = $e1.value;}
 ( '*' e2=unaexpr { $value = Node.MakeNode(driver, Node.OP_TIMES, $e1.value, $e2.value); }
-| '/' e3=unaexpr { $value = Node.MakeNode(driver, Node.OP_DIVIDE, $e1.value, $e2.value); }
-| '%' e4=unaexpr { $value = Node.MakeNode(driver, Node.OP_MOD, $e1.value, $e2.value); }
+| '/' e3=unaexpr { $value = Node.MakeNode(driver, Node.OP_DIVIDE, $e1.value, $e3.value); }
+| '%' e4=unaexpr { $value = Node.MakeNode(driver, Node.OP_MOD, $e1.value, $e4.value); }
 )*
 ;
 
 unaexpr returns [Node value]
 : value_expr { $value = $value_expr.value; }
-| INT { $value = new Node(Node.OP_CONST, $INT.text); }
+| INT { $value = new Node(Node.OP_CONST, Integer.parseInt($INT.text)); }
 | '-' e1=unaexpr { $value = Node.MakeNode(driver, Node.OP_NEG, $e1.value); }
 | '(' e2=expr ')' { $value = $e2.value;}
 | 'rand' '(' e3=expr ')' { $value = Node.MakeNode(driver, Node.OP_RANDFUNC, $e3.value); }

@@ -115,7 +115,8 @@ public class Node {
 		if (right == null) {
 			switch (op) {
 			case Node.OP_NEG:
-				if (left.getOp() == Node.OP_CONST) {				// ’è”‰‰ŽZ‚ðŒvŽZ‚·‚é
+				// å®šæ•°æ¼”ç®—ã‚’è¨ˆç®—ã™ã‚‹
+				if (left.getOp() == Node.OP_CONST) {
 					left.setValue(-left.getValue());
 					return left;
 				}
@@ -201,6 +202,11 @@ public class Node {
 				return c.MakeMoveV(ret, NodeValue.MakeNodeValue(c, this));
 		}
 		NodeValue left = NodeValue.MakeNodeValue(c, this.left);
+		if (this.right != null && 
+			this.right.str != null && 
+			this.right.str.equals("3")) {
+			System.out.println(">>>>here");
+		}
 		NodeValue right = NodeValue.MakeNodeValue(c, this.right);
 		return c.MakeOp(this.op, ret, left, right);
 	}

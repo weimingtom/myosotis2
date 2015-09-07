@@ -1,4 +1,4 @@
-// $ANTLR 3.3 Nov 30, 2010 12:45:30 C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g 2012-01-08 21:46:09
+// $ANTLR 3.3 Nov 30, 2010 12:45:30 D:\\workspace_gz\\myosotis\\grammar\\Calc.g 2015-09-08 02:44:23
 
 package com.iteye.weimingtom.myosotis.calc;
 
@@ -41,15 +41,15 @@ public class CalcLexer extends Lexer {
         super(input,state);
 
     }
-    public String getGrammarFileName() { return "C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g"; }
+    public String getGrammarFileName() { return "D:\\workspace_gz\\myosotis\\grammar\\Calc.g"; }
 
     // $ANTLR start "T__14"
     public final void mT__14() throws RecognitionException {
         try {
             int _type = T__14;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:7:7: ( '=' )
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:7:9: '='
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:7:7: ( '=' )
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:7:9: '='
             {
             match('='); 
 
@@ -68,8 +68,8 @@ public class CalcLexer extends Lexer {
         try {
             int _type = T__15;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:8:7: ( 'print' )
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:8:9: 'print'
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:8:7: ( 'print' )
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:8:9: 'print'
             {
             match("print"); 
 
@@ -89,8 +89,8 @@ public class CalcLexer extends Lexer {
         try {
             int _type = T__16;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:9:7: ( 'list' )
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:9:9: 'list'
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:9:7: ( 'list' )
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:9:9: 'list'
             {
             match("list"); 
 
@@ -110,8 +110,8 @@ public class CalcLexer extends Lexer {
         try {
             int _type = T__17;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:10:7: ( '+' )
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:10:9: '+'
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:10:7: ( '+' )
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:10:9: '+'
             {
             match('+'); 
 
@@ -130,8 +130,8 @@ public class CalcLexer extends Lexer {
         try {
             int _type = T__18;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:11:7: ( '-' )
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:11:9: '-'
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:11:7: ( '-' )
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:11:9: '-'
             {
             match('-'); 
 
@@ -150,8 +150,8 @@ public class CalcLexer extends Lexer {
         try {
             int _type = T__19;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:12:7: ( '*' )
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:12:9: '*'
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:12:7: ( '*' )
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:12:9: '*'
             {
             match('*'); 
 
@@ -170,8 +170,8 @@ public class CalcLexer extends Lexer {
         try {
             int _type = T__20;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:13:7: ( '/' )
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:13:9: '/'
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:13:7: ( '/' )
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:13:9: '/'
             {
             match('/'); 
 
@@ -190,8 +190,8 @@ public class CalcLexer extends Lexer {
         try {
             int _type = T__21;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:14:7: ( '(' )
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:14:9: '('
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:14:7: ( '(' )
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:14:9: '('
             {
             match('('); 
 
@@ -210,8 +210,8 @@ public class CalcLexer extends Lexer {
         try {
             int _type = T__22;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:15:7: ( ')' )
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:15:9: ')'
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:15:7: ( ')' )
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:15:9: ')'
             {
             match(')'); 
 
@@ -230,8 +230,8 @@ public class CalcLexer extends Lexer {
         try {
             int _type = ID;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:104:4: ( ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )* )
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:104:6: ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:104:4: ( ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )* )
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:104:6: ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
             {
             if ( (input.LA(1)>='A' && input.LA(1)<='Z')||input.LA(1)=='_'||(input.LA(1)>='a' && input.LA(1)<='z') ) {
                 input.consume();
@@ -242,7 +242,7 @@ public class CalcLexer extends Lexer {
                 recover(mse);
                 throw mse;}
 
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:104:30: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:104:30: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
             loop1:
             do {
                 int alt1=2;
@@ -255,7 +255,7 @@ public class CalcLexer extends Lexer {
 
                 switch (alt1) {
             	case 1 :
-            	    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:
+            	    // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:
             	    {
             	    if ( (input.LA(1)>='0' && input.LA(1)<='9')||(input.LA(1)>='A' && input.LA(1)<='Z')||input.LA(1)=='_'||(input.LA(1)>='a' && input.LA(1)<='z') ) {
             	        input.consume();
@@ -291,10 +291,10 @@ public class CalcLexer extends Lexer {
         try {
             int _type = INT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:106:5: ( ( '0' .. '9' )+ )
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:106:7: ( '0' .. '9' )+
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:106:5: ( ( '0' .. '9' )+ )
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:106:7: ( '0' .. '9' )+
             {
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:106:7: ( '0' .. '9' )+
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:106:7: ( '0' .. '9' )+
             int cnt2=0;
             loop2:
             do {
@@ -308,7 +308,7 @@ public class CalcLexer extends Lexer {
 
                 switch (alt2) {
             	case 1 :
-            	    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:106:7: '0' .. '9'
+            	    // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:106:7: '0' .. '9'
             	    {
             	    matchRange('0','9'); 
 
@@ -340,7 +340,7 @@ public class CalcLexer extends Lexer {
         try {
             int _type = FLOAT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:108:7: ( INT '.' ( INT )? | '.' INT )
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:108:7: ( INT '.' ( INT )? | '.' INT )
             int alt4=2;
             int LA4_0 = input.LA(1);
 
@@ -358,11 +358,11 @@ public class CalcLexer extends Lexer {
             }
             switch (alt4) {
                 case 1 :
-                    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:108:9: INT '.' ( INT )?
+                    // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:108:9: INT '.' ( INT )?
                     {
                     mINT(); 
                     match('.'); 
-                    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:108:17: ( INT )?
+                    // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:108:17: ( INT )?
                     int alt3=2;
                     int LA3_0 = input.LA(1);
 
@@ -371,7 +371,7 @@ public class CalcLexer extends Lexer {
                     }
                     switch (alt3) {
                         case 1 :
-                            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:108:17: INT
+                            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:108:17: INT
                             {
                             mINT(); 
 
@@ -384,7 +384,7 @@ public class CalcLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:109:6: '.' INT
+                    // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:109:6: '.' INT
                     {
                     match('.'); 
                     mINT(); 
@@ -406,11 +406,11 @@ public class CalcLexer extends Lexer {
         try {
             int _type = CHAR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:112:6: ( '\\'' ( ESC | ~ ( '\\'' | '\\\\' ) ) '\\'' )
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:112:8: '\\'' ( ESC | ~ ( '\\'' | '\\\\' ) ) '\\''
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:112:6: ( '\\'' ( ESC | ~ ( '\\'' | '\\\\' ) ) '\\'' )
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:112:8: '\\'' ( ESC | ~ ( '\\'' | '\\\\' ) ) '\\''
             {
             match('\''); 
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:112:13: ( ESC | ~ ( '\\'' | '\\\\' ) )
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:112:13: ( ESC | ~ ( '\\'' | '\\\\' ) )
             int alt5=2;
             int LA5_0 = input.LA(1);
 
@@ -428,14 +428,14 @@ public class CalcLexer extends Lexer {
             }
             switch (alt5) {
                 case 1 :
-                    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:112:15: ESC
+                    // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:112:15: ESC
                     {
                     mESC(); 
 
                     }
                     break;
                 case 2 :
-                    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:112:21: ~ ( '\\'' | '\\\\' )
+                    // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:112:21: ~ ( '\\'' | '\\\\' )
                     {
                     if ( (input.LA(1)>='\u0000' && input.LA(1)<='&')||(input.LA(1)>='(' && input.LA(1)<='[')||(input.LA(1)>=']' && input.LA(1)<='\uFFFF') ) {
                         input.consume();
@@ -469,11 +469,11 @@ public class CalcLexer extends Lexer {
         try {
             int _type = STRING;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:115:8: ( '\"' ( ESC | ~ ( '\\\\' | '\"' ) )* '\"' )
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:115:11: '\"' ( ESC | ~ ( '\\\\' | '\"' ) )* '\"'
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:115:8: ( '\"' ( ESC | ~ ( '\\\\' | '\"' ) )* '\"' )
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:115:11: '\"' ( ESC | ~ ( '\\\\' | '\"' ) )* '\"'
             {
             match('\"'); 
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:115:15: ( ESC | ~ ( '\\\\' | '\"' ) )*
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:115:15: ( ESC | ~ ( '\\\\' | '\"' ) )*
             loop6:
             do {
                 int alt6=3;
@@ -489,14 +489,14 @@ public class CalcLexer extends Lexer {
 
                 switch (alt6) {
             	case 1 :
-            	    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:115:17: ESC
+            	    // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:115:17: ESC
             	    {
             	    mESC(); 
 
             	    }
             	    break;
             	case 2 :
-            	    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:115:23: ~ ( '\\\\' | '\"' )
+            	    // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:115:23: ~ ( '\\\\' | '\"' )
             	    {
             	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='!')||(input.LA(1)>='#' && input.LA(1)<='[')||(input.LA(1)>=']' && input.LA(1)<='\uFFFF') ) {
             	        input.consume();
@@ -531,8 +531,8 @@ public class CalcLexer extends Lexer {
     // $ANTLR start "ESC"
     public final void mESC() throws RecognitionException {
         try {
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:119:5: ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\\\"' | '\\'' | '\\\\' ) )
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:119:7: '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\\\"' | '\\'' | '\\\\' )
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:119:5: ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\\\"' | '\\'' | '\\\\' ) )
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:119:7: '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\\\"' | '\\'' | '\\\\' )
             {
             match('\\'); 
             if ( input.LA(1)=='\"'||input.LA(1)=='\''||input.LA(1)=='\\'||input.LA(1)=='b'||input.LA(1)=='f'||input.LA(1)=='n'||input.LA(1)=='r'||input.LA(1)=='t' ) {
@@ -558,12 +558,12 @@ public class CalcLexer extends Lexer {
         try {
             int _type = COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:123:5: ( '/*' ( options {greedy=false; } : . )* '*/' )
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:123:7: '/*' ( options {greedy=false; } : . )* '*/'
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:123:5: ( '/*' ( options {greedy=false; } : . )* '*/' )
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:123:7: '/*' ( options {greedy=false; } : . )* '*/'
             {
             match("/*"); 
 
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:123:12: ( options {greedy=false; } : . )*
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:123:12: ( options {greedy=false; } : . )*
             loop7:
             do {
                 int alt7=2;
@@ -588,7 +588,7 @@ public class CalcLexer extends Lexer {
 
                 switch (alt7) {
             	case 1 :
-            	    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:123:40: .
+            	    // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:123:40: .
             	    {
             	    matchAny(); 
 
@@ -619,12 +619,12 @@ public class CalcLexer extends Lexer {
         try {
             int _type = LINE_COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:127:5: ( '//' (~ ( '\\n' | '\\r' ) )* ( '\\r' )? '\\n' )
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:127:7: '//' (~ ( '\\n' | '\\r' ) )* ( '\\r' )? '\\n'
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:127:5: ( '//' (~ ( '\\n' | '\\r' ) )* ( '\\r' )? '\\n' )
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:127:7: '//' (~ ( '\\n' | '\\r' ) )* ( '\\r' )? '\\n'
             {
             match("//"); 
 
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:127:12: (~ ( '\\n' | '\\r' ) )*
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:127:12: (~ ( '\\n' | '\\r' ) )*
             loop8:
             do {
                 int alt8=2;
@@ -637,7 +637,7 @@ public class CalcLexer extends Lexer {
 
                 switch (alt8) {
             	case 1 :
-            	    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:127:12: ~ ( '\\n' | '\\r' )
+            	    // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:127:12: ~ ( '\\n' | '\\r' )
             	    {
             	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='\t')||(input.LA(1)>='\u000B' && input.LA(1)<='\f')||(input.LA(1)>='\u000E' && input.LA(1)<='\uFFFF') ) {
             	        input.consume();
@@ -657,7 +657,7 @@ public class CalcLexer extends Lexer {
                 }
             } while (true);
 
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:127:26: ( '\\r' )?
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:127:26: ( '\\r' )?
             int alt9=2;
             int LA9_0 = input.LA(1);
 
@@ -666,7 +666,7 @@ public class CalcLexer extends Lexer {
             }
             switch (alt9) {
                 case 1 :
-                    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:127:26: '\\r'
+                    // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:127:26: '\\r'
                     {
                     match('\r'); 
 
@@ -693,10 +693,10 @@ public class CalcLexer extends Lexer {
         try {
             int _type = NEWLINE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:130:8: ( ( '\\r' )? '\\n' )
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:130:9: ( '\\r' )? '\\n'
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:130:8: ( ( '\\r' )? '\\n' )
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:130:9: ( '\\r' )? '\\n'
             {
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:130:9: ( '\\r' )?
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:130:9: ( '\\r' )?
             int alt10=2;
             int LA10_0 = input.LA(1);
 
@@ -705,7 +705,7 @@ public class CalcLexer extends Lexer {
             }
             switch (alt10) {
                 case 1 :
-                    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:130:9: '\\r'
+                    // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:130:9: '\\r'
                     {
                     match('\r'); 
 
@@ -731,10 +731,10 @@ public class CalcLexer extends Lexer {
         try {
             int _type = WS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:132:4: ( ( ' ' | '\\t' | '\\r' | '\\n' )+ )
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:132:6: ( ' ' | '\\t' | '\\r' | '\\n' )+
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:132:4: ( ( ' ' | '\\t' | '\\r' | '\\n' )+ )
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:132:6: ( ' ' | '\\t' | '\\r' | '\\n' )+
             {
-            // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:132:6: ( ' ' | '\\t' | '\\r' | '\\n' )+
+            // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:132:6: ( ' ' | '\\t' | '\\r' | '\\n' )+
             int cnt11=0;
             loop11:
             do {
@@ -748,7 +748,7 @@ public class CalcLexer extends Lexer {
 
                 switch (alt11) {
             	case 1 :
-            	    // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:
+            	    // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:
             	    {
             	    if ( (input.LA(1)>='\t' && input.LA(1)<='\n')||input.LA(1)=='\r'||input.LA(1)==' ' ) {
             	        input.consume();
@@ -785,131 +785,131 @@ public class CalcLexer extends Lexer {
     // $ANTLR end "WS"
 
     public void mTokens() throws RecognitionException {
-        // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:1:8: ( T__14 | T__15 | T__16 | T__17 | T__18 | T__19 | T__20 | T__21 | T__22 | ID | INT | FLOAT | CHAR | STRING | COMMENT | LINE_COMMENT | NEWLINE | WS )
+        // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:1:8: ( T__14 | T__15 | T__16 | T__17 | T__18 | T__19 | T__20 | T__21 | T__22 | ID | INT | FLOAT | CHAR | STRING | COMMENT | LINE_COMMENT | NEWLINE | WS )
         int alt12=18;
         alt12 = dfa12.predict(input);
         switch (alt12) {
             case 1 :
-                // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:1:10: T__14
+                // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:1:10: T__14
                 {
                 mT__14(); 
 
                 }
                 break;
             case 2 :
-                // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:1:16: T__15
+                // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:1:16: T__15
                 {
                 mT__15(); 
 
                 }
                 break;
             case 3 :
-                // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:1:22: T__16
+                // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:1:22: T__16
                 {
                 mT__16(); 
 
                 }
                 break;
             case 4 :
-                // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:1:28: T__17
+                // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:1:28: T__17
                 {
                 mT__17(); 
 
                 }
                 break;
             case 5 :
-                // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:1:34: T__18
+                // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:1:34: T__18
                 {
                 mT__18(); 
 
                 }
                 break;
             case 6 :
-                // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:1:40: T__19
+                // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:1:40: T__19
                 {
                 mT__19(); 
 
                 }
                 break;
             case 7 :
-                // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:1:46: T__20
+                // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:1:46: T__20
                 {
                 mT__20(); 
 
                 }
                 break;
             case 8 :
-                // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:1:52: T__21
+                // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:1:52: T__21
                 {
                 mT__21(); 
 
                 }
                 break;
             case 9 :
-                // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:1:58: T__22
+                // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:1:58: T__22
                 {
                 mT__22(); 
 
                 }
                 break;
             case 10 :
-                // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:1:64: ID
+                // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:1:64: ID
                 {
                 mID(); 
 
                 }
                 break;
             case 11 :
-                // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:1:67: INT
+                // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:1:67: INT
                 {
                 mINT(); 
 
                 }
                 break;
             case 12 :
-                // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:1:71: FLOAT
+                // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:1:71: FLOAT
                 {
                 mFLOAT(); 
 
                 }
                 break;
             case 13 :
-                // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:1:77: CHAR
+                // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:1:77: CHAR
                 {
                 mCHAR(); 
 
                 }
                 break;
             case 14 :
-                // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:1:82: STRING
+                // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:1:82: STRING
                 {
                 mSTRING(); 
 
                 }
                 break;
             case 15 :
-                // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:1:89: COMMENT
+                // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:1:89: COMMENT
                 {
                 mCOMMENT(); 
 
                 }
                 break;
             case 16 :
-                // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:1:97: LINE_COMMENT
+                // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:1:97: LINE_COMMENT
                 {
                 mLINE_COMMENT(); 
 
                 }
                 break;
             case 17 :
-                // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:1:110: NEWLINE
+                // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:1:110: NEWLINE
                 {
                 mNEWLINE(); 
 
                 }
                 break;
             case 18 :
-                // C:\\Documents and Settings\\Administrator\\workspace_android4\\myosotis\\grammar\\Calc.g:1:118: WS
+                // D:\\workspace_gz\\myosotis\\grammar\\Calc.g:1:118: WS
                 {
                 mWS(); 
 

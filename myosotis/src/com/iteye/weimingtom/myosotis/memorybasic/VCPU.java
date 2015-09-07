@@ -26,10 +26,10 @@ public class VCPU {
 	public int[] value(int n) { 
 		int[] ret = new int[n];
 		for(int i = 0; i < n; i++) {
-			ret[i] = this.command[this.command_ptr++] << 0;
-			ret[i] |= this.command[this.command_ptr++] << 8;
-			ret[i] |= this.command[this.command_ptr++] << 16;
-			ret[i] |= this.command[this.command_ptr++] << 24;
+			ret[i]  = (this.command[this.command_ptr++] & 0xff) << 0;
+			ret[i] |= (this.command[this.command_ptr++] & 0xff) << 8;
+			ret[i] |= (this.command[this.command_ptr++] & 0xff) << 16;
+			ret[i] |= (this.command[this.command_ptr++] & 0xff) << 24;
 		}
 		return ret;
 	}
@@ -64,8 +64,7 @@ public class VCPU {
 		push((Integer)global_value.get(value));
 	}
 
-	private void PopValue(int value)
-	{
+	private void PopValue(int value) {
 		global_value.set(value, (Integer)top()); 
 		pop();
 	}
@@ -372,6 +371,7 @@ public class VCPU {
 		this.command_ptr = 0;
 		try {
 			while (this.command[command_ptr] != VMCode.VM_HALT) {
+				//System.out.println(">>>>>>>this.command_ptr == " + this.command_ptr);
 				int op = this.command[this.command_ptr++];
 				int v[];
 				switch (op) {
