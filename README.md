@@ -1,22 +1,18 @@
 ﻿# myosotis2
 Porting Script Engine Programming (スクリプトエンジン プログラミング) sample code to Java  
 
-## About Myosotis  
-Myosotis is a set of java port of script engine code:  
-(1) Sample code of book "Script Engine programming".  
-(2) Sample code or book "Adventure Game Programming".  
+## About myosotis2  
+Myosotis2 is a set of java port of script engine code:  
+Sample code of book "Script Engine programming".  
 
 ## See Also:  
 * Script Engine programming  
 	http://www.sbcr.jp/products/4797347623.html  
-* Adventure Game Programming  
-	http://www.sbcr.jp/products/4797320273.html  
 	
 ## Status:  
 * simplecalc (done)  
 * calc (done)  
-* memorybasic (incomplete, has bugs to fix)  
-* mkscript (incomplete)  
+* memorybasic (incomplete, many bugs to fix)  
 
 ## References / Dependencies:  
 * ANTLR 3.3  
