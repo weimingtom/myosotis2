@@ -13,6 +13,7 @@ http://www.sbcr.jp/products/4797347623.html
 * simplecalc (done)  
 * calc (done)  
 * memorybasic (done, for more tests)  
+* stackbasic (done, for more tests)  
 
 ## References / Dependencies:  
 * ANTLR 3.3  

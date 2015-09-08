@@ -1,6 +1,6 @@
-// $ANTLR 3.3 Nov 30, 2010 12:45:30 D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g 2015-09-09 01:45:13
+// $ANTLR 3.3 Nov 30, 2010 12:45:30 D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g 2015-09-09 01:45:14
 
-package com.iteye.weimingtom.myosotis.memorybasic;
+package com.iteye.weimingtom.myosotis.stackbasic;
 
 
 import org.antlr.runtime.*;
@@ -8,7 +8,7 @@ import java.util.Stack;
 import java.util.List;
 import java.util.ArrayList;
 
-public class MemoryBasicLexer extends Lexer {
+public class StackBasicLexer extends Lexer {
     public static final int EOF=-1;
     public static final int T__9=9;
     public static final int T__10=10;
@@ -47,23 +47,23 @@ public class MemoryBasicLexer extends Lexer {
     // delegates
     // delegators
 
-    public MemoryBasicLexer() {;} 
-    public MemoryBasicLexer(CharStream input) {
+    public StackBasicLexer() {;} 
+    public StackBasicLexer(CharStream input) {
         this(input, new RecognizerSharedState());
     }
-    public MemoryBasicLexer(CharStream input, RecognizerSharedState state) {
+    public StackBasicLexer(CharStream input, RecognizerSharedState state) {
         super(input,state);
 
     }
-    public String getGrammarFileName() { return "D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g"; }
+    public String getGrammarFileName() { return "D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g"; }
 
     // $ANTLR start "T__9"
     public final void mT__9() throws RecognitionException {
         try {
             int _type = T__9;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:7:6: ( 'end' )
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:7:8: 'end'
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:7:6: ( 'end' )
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:7:8: 'end'
             {
             match("end"); 
 
@@ -83,8 +83,8 @@ public class MemoryBasicLexer extends Lexer {
         try {
             int _type = T__10;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:8:7: ( 'if' )
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:8:9: 'if'
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:8:7: ( 'if' )
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:8:9: 'if'
             {
             match("if"); 
 
@@ -104,8 +104,8 @@ public class MemoryBasicLexer extends Lexer {
         try {
             int _type = T__11;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:9:7: ( 'then' )
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:9:9: 'then'
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:9:7: ( 'then' )
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:9:9: 'then'
             {
             match("then"); 
 
@@ -125,8 +125,8 @@ public class MemoryBasicLexer extends Lexer {
         try {
             int _type = T__12;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:10:7: ( 'else' )
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:10:9: 'else'
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:10:7: ( 'else' )
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:10:9: 'else'
             {
             match("else"); 
 
@@ -146,8 +146,8 @@ public class MemoryBasicLexer extends Lexer {
         try {
             int _type = T__13;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:11:7: ( 'endif' )
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:11:9: 'endif'
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:11:7: ( 'endif' )
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:11:9: 'endif'
             {
             match("endif"); 
 
@@ -167,8 +167,8 @@ public class MemoryBasicLexer extends Lexer {
         try {
             int _type = T__14;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:12:7: ( 'for' )
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:12:9: 'for'
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:12:7: ( 'for' )
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:12:9: 'for'
             {
             match("for"); 
 
@@ -188,8 +188,8 @@ public class MemoryBasicLexer extends Lexer {
         try {
             int _type = T__15;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:13:7: ( 'to' )
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:13:9: 'to'
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:13:7: ( 'to' )
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:13:9: 'to'
             {
             match("to"); 
 
@@ -209,8 +209,8 @@ public class MemoryBasicLexer extends Lexer {
         try {
             int _type = T__16;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:14:7: ( 'step' )
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:14:9: 'step'
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:14:7: ( 'step' )
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:14:9: 'step'
             {
             match("step"); 
 
@@ -230,8 +230,8 @@ public class MemoryBasicLexer extends Lexer {
         try {
             int _type = T__17;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:15:7: ( 'next' )
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:15:9: 'next'
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:15:7: ( 'next' )
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:15:9: 'next'
             {
             match("next"); 
 
@@ -251,8 +251,8 @@ public class MemoryBasicLexer extends Lexer {
         try {
             int _type = T__18;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:16:7: ( 'while' )
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:16:9: 'while'
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:16:7: ( 'while' )
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:16:9: 'while'
             {
             match("while"); 
 
@@ -272,8 +272,8 @@ public class MemoryBasicLexer extends Lexer {
         try {
             int _type = T__19;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:17:7: ( 'wend' )
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:17:9: 'wend'
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:17:7: ( 'wend' )
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:17:9: 'wend'
             {
             match("wend"); 
 
@@ -293,8 +293,8 @@ public class MemoryBasicLexer extends Lexer {
         try {
             int _type = T__20;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:18:7: ( 'print' )
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:18:9: 'print'
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:18:7: ( 'print' )
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:18:9: 'print'
             {
             match("print"); 
 
@@ -314,8 +314,8 @@ public class MemoryBasicLexer extends Lexer {
         try {
             int _type = T__21;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:19:7: ( '=' )
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:19:9: '='
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:19:7: ( '=' )
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:19:9: '='
             {
             match('='); 
 
@@ -334,8 +334,8 @@ public class MemoryBasicLexer extends Lexer {
         try {
             int _type = T__22;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:20:7: ( '==' )
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:20:9: '=='
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:20:7: ( '==' )
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:20:9: '=='
             {
             match("=="); 
 
@@ -355,8 +355,8 @@ public class MemoryBasicLexer extends Lexer {
         try {
             int _type = T__23;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:21:7: ( '!=' )
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:21:9: '!='
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:21:7: ( '!=' )
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:21:9: '!='
             {
             match("!="); 
 
@@ -376,8 +376,8 @@ public class MemoryBasicLexer extends Lexer {
         try {
             int _type = T__24;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:22:7: ( '>' )
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:22:9: '>'
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:22:7: ( '>' )
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:22:9: '>'
             {
             match('>'); 
 
@@ -396,8 +396,8 @@ public class MemoryBasicLexer extends Lexer {
         try {
             int _type = T__25;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:23:7: ( '>=' )
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:23:9: '>='
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:23:7: ( '>=' )
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:23:9: '>='
             {
             match(">="); 
 
@@ -417,8 +417,8 @@ public class MemoryBasicLexer extends Lexer {
         try {
             int _type = T__26;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:24:7: ( '<' )
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:24:9: '<'
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:24:7: ( '<' )
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:24:9: '<'
             {
             match('<'); 
 
@@ -437,8 +437,8 @@ public class MemoryBasicLexer extends Lexer {
         try {
             int _type = T__27;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:25:7: ( '<=' )
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:25:9: '<='
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:25:7: ( '<=' )
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:25:9: '<='
             {
             match("<="); 
 
@@ -458,8 +458,8 @@ public class MemoryBasicLexer extends Lexer {
         try {
             int _type = T__28;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:26:7: ( '+' )
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:26:9: '+'
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:26:7: ( '+' )
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:26:9: '+'
             {
             match('+'); 
 
@@ -478,8 +478,8 @@ public class MemoryBasicLexer extends Lexer {
         try {
             int _type = T__29;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:27:7: ( '-' )
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:27:9: '-'
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:27:7: ( '-' )
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:27:9: '-'
             {
             match('-'); 
 
@@ -498,8 +498,8 @@ public class MemoryBasicLexer extends Lexer {
         try {
             int _type = T__30;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:28:7: ( '*' )
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:28:9: '*'
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:28:7: ( '*' )
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:28:9: '*'
             {
             match('*'); 
 
@@ -518,8 +518,8 @@ public class MemoryBasicLexer extends Lexer {
         try {
             int _type = T__31;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:29:7: ( '/' )
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:29:9: '/'
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:29:7: ( '/' )
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:29:9: '/'
             {
             match('/'); 
 
@@ -538,8 +538,8 @@ public class MemoryBasicLexer extends Lexer {
         try {
             int _type = T__32;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:30:7: ( '%' )
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:30:9: '%'
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:30:7: ( '%' )
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:30:9: '%'
             {
             match('%'); 
 
@@ -558,8 +558,8 @@ public class MemoryBasicLexer extends Lexer {
         try {
             int _type = T__33;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:31:7: ( '(' )
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:31:9: '('
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:31:7: ( '(' )
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:31:9: '('
             {
             match('('); 
 
@@ -578,8 +578,8 @@ public class MemoryBasicLexer extends Lexer {
         try {
             int _type = T__34;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:32:7: ( ')' )
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:32:9: ')'
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:32:7: ( ')' )
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:32:9: ')'
             {
             match(')'); 
 
@@ -598,8 +598,8 @@ public class MemoryBasicLexer extends Lexer {
         try {
             int _type = T__35;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:33:7: ( 'rand' )
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:33:9: 'rand'
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:33:7: ( 'rand' )
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:33:9: 'rand'
             {
             match("rand"); 
 
@@ -619,8 +619,8 @@ public class MemoryBasicLexer extends Lexer {
         try {
             int _type = T__36;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:34:7: ( ',' )
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:34:9: ','
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:34:7: ( ',' )
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:34:9: ','
             {
             match(','); 
 
@@ -639,8 +639,8 @@ public class MemoryBasicLexer extends Lexer {
         try {
             int _type = ID;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:85:1: ( ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )* )
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:85:3: ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:85:1: ( ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )* )
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:85:3: ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
             {
             if ( (input.LA(1)>='A' && input.LA(1)<='Z')||input.LA(1)=='_'||(input.LA(1)>='a' && input.LA(1)<='z') ) {
                 input.consume();
@@ -651,7 +651,7 @@ public class MemoryBasicLexer extends Lexer {
                 recover(mse);
                 throw mse;}
 
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:85:31: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:85:31: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
             loop1:
             do {
                 int alt1=2;
@@ -664,7 +664,7 @@ public class MemoryBasicLexer extends Lexer {
 
                 switch (alt1) {
             	case 1 :
-            	    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:
+            	    // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:
             	    {
             	    if ( (input.LA(1)>='0' && input.LA(1)<='9')||(input.LA(1)>='A' && input.LA(1)<='Z')||input.LA(1)=='_'||(input.LA(1)>='a' && input.LA(1)<='z') ) {
             	        input.consume();
@@ -700,10 +700,10 @@ public class MemoryBasicLexer extends Lexer {
         try {
             int _type = INT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:89:1: ( ( '0' .. '9' )+ )
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:89:3: ( '0' .. '9' )+
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:89:1: ( ( '0' .. '9' )+ )
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:89:3: ( '0' .. '9' )+
             {
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:89:3: ( '0' .. '9' )+
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:89:3: ( '0' .. '9' )+
             int cnt2=0;
             loop2:
             do {
@@ -717,7 +717,7 @@ public class MemoryBasicLexer extends Lexer {
 
                 switch (alt2) {
             	case 1 :
-            	    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:89:3: '0' .. '9'
+            	    // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:89:3: '0' .. '9'
             	    {
             	    matchRange('0','9'); 
 
@@ -749,10 +749,10 @@ public class MemoryBasicLexer extends Lexer {
         try {
             int _type = LINE_COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:93:1: ( ( '#' | '\\'' | 'rem' ) (~ ( '\\n' | '\\r' ) )* ( '\\r' )? '\\n' )
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:93:3: ( '#' | '\\'' | 'rem' ) (~ ( '\\n' | '\\r' ) )* ( '\\r' )? '\\n'
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:93:1: ( ( '#' | '\\'' | 'rem' ) (~ ( '\\n' | '\\r' ) )* ( '\\r' )? '\\n' )
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:93:3: ( '#' | '\\'' | 'rem' ) (~ ( '\\n' | '\\r' ) )* ( '\\r' )? '\\n'
             {
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:93:3: ( '#' | '\\'' | 'rem' )
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:93:3: ( '#' | '\\'' | 'rem' )
             int alt3=3;
             switch ( input.LA(1) ) {
             case '#':
@@ -779,21 +779,21 @@ public class MemoryBasicLexer extends Lexer {
 
             switch (alt3) {
                 case 1 :
-                    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:93:4: '#'
+                    // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:93:4: '#'
                     {
                     match('#'); 
 
                     }
                     break;
                 case 2 :
-                    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:93:10: '\\''
+                    // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:93:10: '\\''
                     {
                     match('\''); 
 
                     }
                     break;
                 case 3 :
-                    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:93:17: 'rem'
+                    // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:93:17: 'rem'
                     {
                     match("rem"); 
 
@@ -803,7 +803,7 @@ public class MemoryBasicLexer extends Lexer {
 
             }
 
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:93:24: (~ ( '\\n' | '\\r' ) )*
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:93:24: (~ ( '\\n' | '\\r' ) )*
             loop4:
             do {
                 int alt4=2;
@@ -816,7 +816,7 @@ public class MemoryBasicLexer extends Lexer {
 
                 switch (alt4) {
             	case 1 :
-            	    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:93:24: ~ ( '\\n' | '\\r' )
+            	    // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:93:24: ~ ( '\\n' | '\\r' )
             	    {
             	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='\t')||(input.LA(1)>='\u000B' && input.LA(1)<='\f')||(input.LA(1)>='\u000E' && input.LA(1)<='\uFFFF') ) {
             	        input.consume();
@@ -836,7 +836,7 @@ public class MemoryBasicLexer extends Lexer {
                 }
             } while (true);
 
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:93:38: ( '\\r' )?
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:93:38: ( '\\r' )?
             int alt5=2;
             int LA5_0 = input.LA(1);
 
@@ -845,7 +845,7 @@ public class MemoryBasicLexer extends Lexer {
             }
             switch (alt5) {
                 case 1 :
-                    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:93:38: '\\r'
+                    // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:93:38: '\\r'
                     {
                     match('\r'); 
 
@@ -872,10 +872,10 @@ public class MemoryBasicLexer extends Lexer {
         try {
             int _type = NEWLINE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:97:1: ( ( '\\r' )? '\\n' )
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:97:3: ( '\\r' )? '\\n'
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:97:1: ( ( '\\r' )? '\\n' )
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:97:3: ( '\\r' )? '\\n'
             {
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:97:3: ( '\\r' )?
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:97:3: ( '\\r' )?
             int alt6=2;
             int LA6_0 = input.LA(1);
 
@@ -884,7 +884,7 @@ public class MemoryBasicLexer extends Lexer {
             }
             switch (alt6) {
                 case 1 :
-                    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:97:3: '\\r'
+                    // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:97:3: '\\r'
                     {
                     match('\r'); 
 
@@ -910,10 +910,10 @@ public class MemoryBasicLexer extends Lexer {
         try {
             int _type = WS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:102:1: ( ( ' ' | '\\t' )+ )
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:102:3: ( ' ' | '\\t' )+
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:102:1: ( ( ' ' | '\\t' )+ )
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:102:3: ( ' ' | '\\t' )+
             {
-            // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:102:3: ( ' ' | '\\t' )+
+            // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:102:3: ( ' ' | '\\t' )+
             int cnt7=0;
             loop7:
             do {
@@ -927,7 +927,7 @@ public class MemoryBasicLexer extends Lexer {
 
                 switch (alt7) {
             	case 1 :
-            	    // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:
+            	    // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:
             	    {
             	    if ( input.LA(1)=='\t'||input.LA(1)==' ' ) {
             	        input.consume();
@@ -964,236 +964,236 @@ public class MemoryBasicLexer extends Lexer {
     // $ANTLR end "WS"
 
     public void mTokens() throws RecognitionException {
-        // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:1:8: ( T__9 | T__10 | T__11 | T__12 | T__13 | T__14 | T__15 | T__16 | T__17 | T__18 | T__19 | T__20 | T__21 | T__22 | T__23 | T__24 | T__25 | T__26 | T__27 | T__28 | T__29 | T__30 | T__31 | T__32 | T__33 | T__34 | T__35 | T__36 | ID | INT | LINE_COMMENT | NEWLINE | WS )
+        // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:1:8: ( T__9 | T__10 | T__11 | T__12 | T__13 | T__14 | T__15 | T__16 | T__17 | T__18 | T__19 | T__20 | T__21 | T__22 | T__23 | T__24 | T__25 | T__26 | T__27 | T__28 | T__29 | T__30 | T__31 | T__32 | T__33 | T__34 | T__35 | T__36 | ID | INT | LINE_COMMENT | NEWLINE | WS )
         int alt8=33;
         alt8 = dfa8.predict(input);
         switch (alt8) {
             case 1 :
-                // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:1:10: T__9
+                // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:1:10: T__9
                 {
                 mT__9(); 
 
                 }
                 break;
             case 2 :
-                // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:1:15: T__10
+                // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:1:15: T__10
                 {
                 mT__10(); 
 
                 }
                 break;
             case 3 :
-                // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:1:21: T__11
+                // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:1:21: T__11
                 {
                 mT__11(); 
 
                 }
                 break;
             case 4 :
-                // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:1:27: T__12
+                // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:1:27: T__12
                 {
                 mT__12(); 
 
                 }
                 break;
             case 5 :
-                // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:1:33: T__13
+                // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:1:33: T__13
                 {
                 mT__13(); 
 
                 }
                 break;
             case 6 :
-                // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:1:39: T__14
+                // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:1:39: T__14
                 {
                 mT__14(); 
 
                 }
                 break;
             case 7 :
-                // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:1:45: T__15
+                // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:1:45: T__15
                 {
                 mT__15(); 
 
                 }
                 break;
             case 8 :
-                // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:1:51: T__16
+                // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:1:51: T__16
                 {
                 mT__16(); 
 
                 }
                 break;
             case 9 :
-                // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:1:57: T__17
+                // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:1:57: T__17
                 {
                 mT__17(); 
 
                 }
                 break;
             case 10 :
-                // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:1:63: T__18
+                // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:1:63: T__18
                 {
                 mT__18(); 
 
                 }
                 break;
             case 11 :
-                // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:1:69: T__19
+                // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:1:69: T__19
                 {
                 mT__19(); 
 
                 }
                 break;
             case 12 :
-                // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:1:75: T__20
+                // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:1:75: T__20
                 {
                 mT__20(); 
 
                 }
                 break;
             case 13 :
-                // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:1:81: T__21
+                // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:1:81: T__21
                 {
                 mT__21(); 
 
                 }
                 break;
             case 14 :
-                // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:1:87: T__22
+                // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:1:87: T__22
                 {
                 mT__22(); 
 
                 }
                 break;
             case 15 :
-                // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:1:93: T__23
+                // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:1:93: T__23
                 {
                 mT__23(); 
 
                 }
                 break;
             case 16 :
-                // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:1:99: T__24
+                // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:1:99: T__24
                 {
                 mT__24(); 
 
                 }
                 break;
             case 17 :
-                // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:1:105: T__25
+                // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:1:105: T__25
                 {
                 mT__25(); 
 
                 }
                 break;
             case 18 :
-                // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:1:111: T__26
+                // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:1:111: T__26
                 {
                 mT__26(); 
 
                 }
                 break;
             case 19 :
-                // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:1:117: T__27
+                // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:1:117: T__27
                 {
                 mT__27(); 
 
                 }
                 break;
             case 20 :
-                // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:1:123: T__28
+                // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:1:123: T__28
                 {
                 mT__28(); 
 
                 }
                 break;
             case 21 :
-                // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:1:129: T__29
+                // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:1:129: T__29
                 {
                 mT__29(); 
 
                 }
                 break;
             case 22 :
-                // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:1:135: T__30
+                // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:1:135: T__30
                 {
                 mT__30(); 
 
                 }
                 break;
             case 23 :
-                // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:1:141: T__31
+                // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:1:141: T__31
                 {
                 mT__31(); 
 
                 }
                 break;
             case 24 :
-                // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:1:147: T__32
+                // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:1:147: T__32
                 {
                 mT__32(); 
 
                 }
                 break;
             case 25 :
-                // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:1:153: T__33
+                // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:1:153: T__33
                 {
                 mT__33(); 
 
                 }
                 break;
             case 26 :
-                // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:1:159: T__34
+                // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:1:159: T__34
                 {
                 mT__34(); 
 
                 }
                 break;
             case 27 :
-                // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:1:165: T__35
+                // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:1:165: T__35
                 {
                 mT__35(); 
 
                 }
                 break;
             case 28 :
-                // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:1:171: T__36
+                // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:1:171: T__36
                 {
                 mT__36(); 
 
                 }
                 break;
             case 29 :
-                // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:1:177: ID
+                // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:1:177: ID
                 {
                 mID(); 
 
                 }
                 break;
             case 30 :
-                // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:1:180: INT
+                // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:1:180: INT
                 {
                 mINT(); 
 
                 }
                 break;
             case 31 :
-                // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:1:184: LINE_COMMENT
+                // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:1:184: LINE_COMMENT
                 {
                 mLINE_COMMENT(); 
 
                 }
                 break;
             case 32 :
-                // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:1:197: NEWLINE
+                // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:1:197: NEWLINE
                 {
                 mNEWLINE(); 
 
                 }
                 break;
             case 33 :
-                // D:\\workspace_gz\\myosotis\\grammar\\MemoryBasic.g:1:205: WS
+                // D:\\workspace_gz\\myosotis\\grammar\\StackBasic.g:1:205: WS
                 {
                 mWS(); 
 
