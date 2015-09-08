@@ -309,8 +309,8 @@ public class VCPU {
 	}
 
 	private void OpJmpC(int addr, int arg) {
-		if (global_value.get(arg) == null || 
-			(Integer)global_value.get(arg) == 0) {
+		if (global_value.get(arg) != null && 
+			(Integer)global_value.get(arg) != 0) {
 			jmp(addr);
 		}
 	}
@@ -327,7 +327,11 @@ public class VCPU {
 	}
 
 	private int rand() {
-		return rand.nextInt();
+		/**
+		 * FIXME:
+		 * don't use nextInt(), use nextInt(maxValue), it should be positive
+		 */
+		return rand.nextInt(2 << 16);
 	}
 	
 	private void OpRandC(int result, int arg) {
@@ -371,7 +375,9 @@ public class VCPU {
 		this.command_ptr = 0;
 		try {
 			while (this.command[command_ptr] != VMCode.VM_HALT) {
-				//System.out.println(">>>>>>>this.command_ptr == " + this.command_ptr);
+				if (Compiler.DEBUG) {
+					System.out.println(">>>>>>>this.command_ptr == " + this.command_ptr);
+				}
 				int op = this.command[this.command_ptr++];
 				int v[];
 				switch (op) {

@@ -1,11 +1,10 @@
 package com.iteye.weimingtom.myosotis.memorybasic;
 
-import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.List;
+import java.util.LinkedList;
 
 public class Args {
-	private List<Node> args = new ArrayList<Node>();
+	private LinkedList<Node> args = new LinkedList<Node>();
 	
 	public Args(Node node) {
 		args.add(node);
@@ -34,5 +33,9 @@ public class Args {
 	
 	public Iterator<Node> getIterator() {
 		return args.iterator();
+	}
+
+	public Iterator<Node> getReverseIterator() {
+		return args.descendingIterator();
 	}
 }

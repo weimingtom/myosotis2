@@ -67,10 +67,10 @@ public class MemoryBasicTest {
 			"\n" +
 			"print a, b\n" +
 			"\n" +
-			"\'while a != 0\n" +
-			"\'	a = a - 1\n" +
-			"\'   print a, b\n" +
-			"\'wend\n" +
+			"while a != 0\n" +
+			"	a = a - 1\n" +
+			//"   print a, b\n" +
+			"wend\n" +
 			"\n" +
 			"print a, b\n" +
 			"\n" +

@@ -12,7 +12,7 @@ http://www.sbcr.jp/products/4797347623.html
 ## Status:  
 * simplecalc (done)  
 * calc (done)  
-* memorybasic (incomplete, many bugs to fix)  
+* memorybasic (done, for more tests)  
 
 ## References / Dependencies:  
 * ANTLR 3.3  

@@ -24,6 +24,9 @@ public class Assign {
 			c.error("variable " + value.getStr() + " is not defined");
 			return new NodeValue();
 		}
+		if (Compiler.DEBUG && expr.getLeft() != null && expr.getLeft().getStr() != null && expr.getLeft().getStr().equals("a")) {
+			System.out.println(">>>>>here a = ?");
+		}
 		return expr.analyze(c, tag.getAddr());
 	}
 }

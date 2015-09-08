@@ -184,6 +184,12 @@ public class Node {
 			right = null;
 			return left;
 		}
+		if (Compiler.DEBUG && op == Node.OP_TIMES) {
+			System.out.println(">>>>>> here OP_TIMES");
+		}
+		if (Compiler.DEBUG && op == Node.OP_DIVIDE) {
+			System.out.println(">>>>>> here OP_DIVIDE");
+		}
 		return new Node(op, left, right);
 	}
 	
@@ -202,7 +208,7 @@ public class Node {
 				return c.MakeMoveV(ret, NodeValue.MakeNodeValue(c, this));
 		}
 		NodeValue left = NodeValue.MakeNodeValue(c, this.left);
-		if (this.right != null && 
+		if (Compiler.DEBUG && this.right != null && 
 			this.right.str != null && 
 			this.right.str.equals("3")) {
 			System.out.println(">>>>here");

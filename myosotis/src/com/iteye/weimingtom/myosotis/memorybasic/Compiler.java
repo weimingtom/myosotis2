@@ -14,6 +14,8 @@ import org.antlr.runtime.RecognitionException;
  * 
  */
 public class Compiler {
+	public static final boolean DEBUG = false;
+	
 	private ValueTable variables = new ValueTable();
 	//VMCode 
 	private List<VMCode> statement = new ArrayList<VMCode>();
@@ -647,7 +649,7 @@ public class Compiler {
 	public void PrintStatement(Args args) {
 		int arg_count = 0;
 		if (args != null) {
-			Iterator<Node> it = args.getIterator();
+			Iterator<Node> it = args.getReverseIterator();
 			while (it.hasNext()) {
 				Node node = it.next();
 				NodeValue value = NodeValue.MakeNodeValue(this, node);
