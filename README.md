@@ -18,6 +18,10 @@ http://www.sbcr.jp/products/4797347623.html
 ## References / Dependencies:  
 * ANTLR 3.3  
 http://www.antlr3.org/   
+* nutti/STG-Engine  
+https://github.com/nutti/STG-Engine  
+* Shooting-Script  
+https://github.com/nutti/Shooting-Script  
 
 ## Old Project:  
 see https://github.com/weimingtom/myosotis  
