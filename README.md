@@ -22,6 +22,8 @@ http://www.antlr3.org/
 https://github.com/nutti/STG-Engine  
 * Shooting-Script  
 https://github.com/nutti/Shooting-Script  
+* Implementing A Scripting Engine  
+http://www.flipcode.com/archives/Implementing_A_Scripting_Engine-Part_8_Executable_Code.shtml  
 
 ## Old Project:  
 see https://github.com/weimingtom/myosotis  
