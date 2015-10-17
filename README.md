@@ -24,6 +24,10 @@ https://github.com/nutti/STG-Engine
 https://github.com/nutti/Shooting-Script  
 * Implementing A Scripting Engine  
 http://www.flipcode.com/archives/Implementing_A_Scripting_Engine-Part_8_Executable_Code.shtml  
+* koji  
+https://github.com/keebus/koji  
+* luna  
+https://github.com/airtrack/luna  
 
 ## Old Project:  
 see https://github.com/weimingtom/myosotis  
