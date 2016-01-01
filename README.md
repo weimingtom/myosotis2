@@ -46,6 +46,10 @@ Principles and Practice
 by Kenneth C. Louden  
 http://www.cs.sjsu.edu/~louden/cmptext/  
 
+* 脚本驱动的应用软件开发方法与实践  
+
+* 游戏脚本高级编程  
+Game Scripting Mastery  
 
 ## Old Project:  
 see https://github.com/weimingtom/myosotis  
