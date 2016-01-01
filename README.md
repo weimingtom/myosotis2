@@ -40,5 +40,12 @@ https://code.google.com/r/vetohin87-arity/
 * ANTLR SQL解析器代码  
 http://www.cnblogs.com/RicCC/archive/2010/05/23/antlr-sql-parser.html  
 
+* 编译原理及实践  
+Compiler Construction  
+Principles and Practice  
+by Kenneth C. Louden  
+http://www.cs.sjsu.edu/~louden/cmptext/  
+
+
 ## Old Project:  
 see https://github.com/weimingtom/myosotis  
