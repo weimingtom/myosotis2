@@ -51,5 +51,8 @@ http://www.cs.sjsu.edu/~louden/cmptext/
 * 游戏脚本高级编程  
 Game Scripting Mastery  
 
+* PuerkitoBio/agora  
+https://github.com/PuerkitoBio/agora  
+
 ## Old Project:  
 see https://github.com/weimingtom/myosotis  
