@@ -54,5 +54,8 @@ Game Scripting Mastery
 * PuerkitoBio/agora  
 https://github.com/PuerkitoBio/agora  
 
+* incrediblesound/huo (类LISP)  
+https://github.com/incrediblesound/huo  
+
 ## Old Project:  
 see https://github.com/weimingtom/myosotis  
