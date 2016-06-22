@@ -15,7 +15,7 @@ http://www.sbcr.jp/products/4797347623.html
 * memorybasic (done, for more tests)  
 * stackbasic (done, for more tests)  
 
-## References / Dependencies:  
+## References / Dependencies / Research plans :  
 * ANTLR 3.3  
 http://www.antlr3.org/   
 
