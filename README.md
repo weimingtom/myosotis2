@@ -57,5 +57,11 @@ https://github.com/PuerkitoBio/agora
 * incrediblesound/huo (类LISP)  
 https://github.com/incrediblesound/huo  
 
+* svaarala/duktape  
+https://github.com/svaarala/duktape   
+
+* zxh0/jvmgo-book  
+https://github.com/zxh0/jvmgo-book  
+
 ## Old Project:  
 see https://github.com/weimingtom/myosotis  
