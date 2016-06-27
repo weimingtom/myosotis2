@@ -62,9 +62,11 @@ https://github.com/svaarala/duktape
 
 * zxh0/jvmgo-book  
 https://github.com/zxh0/jvmgo-book  
+https://github.com/zxh0/jvm.go  
 
 * The Jx9 Embedded Scripting Language (see UnQLite)  
 https://www.unqlite.org/jx9.html  
+https://unqlite.org  
 
 ## Old Project:  
 see https://github.com/weimingtom/myosotis  
