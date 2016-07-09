@@ -77,5 +77,9 @@ https://github.com/eriksvedang/Carp
 * tadeuzagallo/verve-lang  
 https://github.com/tadeuzagallo/verve-lang  
 
+* Squirrel  
+http://www.squirrel-lang.org/  
+https://github.com/albertodemichelis/squirrel  
+
 ## Old Project:  
 see https://github.com/weimingtom/myosotis  
