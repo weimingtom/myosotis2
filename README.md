@@ -74,5 +74,8 @@ https://github.com/kanaka/mal
 * eriksvedang/Carp  
 https://github.com/eriksvedang/Carp  
 
+* tadeuzagallo/verve-lang  
+https://github.com/tadeuzagallo/verve-lang  
+
 ## Old Project:  
 see https://github.com/weimingtom/myosotis  
