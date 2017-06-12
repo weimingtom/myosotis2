@@ -91,5 +91,8 @@ Virtual Machine Design and Implementation C/C++
 HEC on Linux  
 http://download.csdn.net/download/dazutou/9721672  
 
+* SeeMod  
+https://github.com/weimingtom/SeeMod  
+
 ## Old Project:  
 see https://github.com/weimingtom/myosotis  
